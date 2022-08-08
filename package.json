@@ -1,0 +1,26 @@
+{
+  "name": "pandoc-asciimath2tex",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Pandoc filter to convert asciimath to tex",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/PerpetualCreativity/pandoc-asciimath2tex"
+  },
+  "keywords": [
+    "pandoc",
+    "asciimath",
+    "latex",
+    "pandoc-filter"
+  ],
+  "author": "Ved Thiru",
+  "license": "MIT",
+  "dependencies": {
+    "asciimath2tex": "^1.4.0",
+    "pandoc-filter": "^2.0.3"
+  }
+}
