@@ -18,6 +18,8 @@ pandoc --filter [path to pandoc-asciimath2tex]/filter.js --standalone --katex [F
 
 I suggest you alias the above to something that's easier to type. I've aliased this to `pandoc-am`.
 
+If you need to type pure LaTeX, type a `@` immediately after the math wrapper symbols (either `$@...$` or `$$@ ... $$`). This is useful if asciimath is not expressive enough, e.g. for nested matrices.
+
 ## issues
 
 Please open an issue if you find a bug *in this filter*.
